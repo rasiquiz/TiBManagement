@@ -8,15 +8,50 @@
 </head>
 <body>
 
-	<div id="sidebar"></div>
+	<div id="sidebar">
+		<ul>
+			<li>Indledning</li>
+			<li>Problemstilling</li>
+			<li>Problemformulering</li>
+			<li>Problemanalyse</li>
+			<li>Idegenerering</li>
+			<li>produktudvikling</li>
+			<li>Teknologivurdering og Perspektivering</li>
+			<li>Konklusion</li>
+			<li>Kildeliste</li>
+		</ul>
+	</div>
 	<div id="text"></div>
 	<div id="comments"></div>
 
 </body>
 </html>
 <style>
-
 	
+	@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+	
+	body {
+		font-family: Roboto;
+	}
+
+	ul, li {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	#sidebar li {
+		padding: 30px 20px;
+	}
+	
+	#sidebar {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 200px;
+		text-align: left;
+		background-color: #eee;
+	}
 
 </style>
 <script>
